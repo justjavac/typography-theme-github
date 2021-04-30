@@ -4,7 +4,6 @@
     "module":"CommonJS",
     "target": "es6",
     "declaration": true,
-    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,

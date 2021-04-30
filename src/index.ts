@@ -1,5 +1,6 @@
-import gray from "gray-percentage";
 import type { TypographyOptions } from "typography";
+
+import gray = require('gray-percentage');
 
 const theme: TypographyOptions = {
   baseFontSize: "16px",
