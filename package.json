@@ -1,7 +1,7 @@
 {
   "name": "@justjavac/typography-theme-github",
   "description": "A theme for Typography.js inspired by Github's Markdown typography",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "scripts": {
     "format": "deno fmt ./src",
     "lint": "deno lint --unstable ./src",

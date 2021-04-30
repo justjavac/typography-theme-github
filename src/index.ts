@@ -35,7 +35,7 @@ const theme: TypographyOptions = {
   bodyWeight: "normal",
   boldWeight: 600,
   // Github has all block elements use 1/2 rhythm not a full rhythm.
-  blockMarginBottom: 1 / 2,
+  blockMarginBottom: 2 / 3,
   overrideStyles: ({ rhythm }) => ({
     'h1, h2, h3, h4, h5, h6': {
       marginTop: rhythm(1),
@@ -53,7 +53,7 @@ const theme: TypographyOptions = {
       marginLeft: rhythm(1.25),
     },
     a: {
-      color: "#4078c0",
+      color: "#0366d6",
       textDecoration: "none",
     },
     "a:hover,a:active": {
