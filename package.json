@@ -1,0 +1,32 @@
+{
+  "name": "@justjavac/typography-theme-github",
+  "description": "A theme for Typography.js inspired by Github's Markdown typography",
+  "version": "0.1.0",
+  "scripts": {
+    "format": "deno fmt ./src",
+    "lint": "deno lint --unstable ./src",
+    "build": "tsc",
+    "prepublishOnly": "yarn tsc"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "main": "./dist/index.js",
+  "repository": "git@github.com:justjavac/typography-theme-github.git",
+  "author": "迷渡 <justjavac@gmail.com>",
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/gray-percentage": "^2.0.0",
+    "@types/typography": "^0.16.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "gray-percentage": "^2.0.0"
+  }
+}
