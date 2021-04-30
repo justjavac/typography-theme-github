@@ -4,7 +4,7 @@ import gray = require('gray-percentage');
 
 const theme: TypographyOptions = {
   baseFontSize: "16px",
-  baseLineHeight: 1.625,
+  baseLineHeight: 1.5,
   headerFontFamily: [
     "-apple-system",
     "BlinkMacSystemFont",
@@ -37,24 +37,13 @@ const theme: TypographyOptions = {
   // Github has all block elements use 1/2 rhythm not a full rhythm.
   blockMarginBottom: 1 / 2,
   overrideStyles: ({ rhythm }) => ({
-    h1: {
-      borderBottom: `1px solid ${gray(93)}`,
-      paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,
-      marginBottom: rhythm(3 / 4),
-      marginTop: rhythm(1.5),
-    },
-    h2: {
-      borderBottom: `1px solid ${gray(93)}`,
-      paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,
-      marginBottom: rhythm(1 / 4),
+    'h1, h2, h3, h4, h5, h6': {
       marginTop: rhythm(1),
+      marginBottom: rhythm(2 / 3),
     },
-    h6: {
-      color: gray(47),
-    },
-    "h3,h4,h5,h6": {
-      marginBottom: rhythm(1 / 2),
-      marginTop: rhythm(1),
+    'h1, h2': {
+      paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,
+      borderBottom: `1px solid ${gray(93)}`,
     },
     "ol,ul": {
       marginLeft: rhythm(1.25),
